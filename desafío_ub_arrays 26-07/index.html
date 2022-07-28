@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Centro Médico Ñuñoa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <h1 class="container mt-5 text-center">Atencion de pacientes</h1>
+  <section class="container mt-3">
+    <h2 class="mt-5 mb-2">Radiologia</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Hora</th>
+          <th scope="col">Especialista</th>
+          <th scope="col">Paciente</th>
+          <th scope="col">Rut</th>
+          <th scope="col">Previsión</th>
+        </tr>
+      </thead>
+      <tbody id="radiologia">
+
+      </tbody>
+    </table>
+  </section>
+  <div id="radiologiaPU" class="container"></div>
+  <section class="container">
+    <h2 class="mt-5 mb-2">Traumatologia</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Hora</th>
+          <th scope="col">Especialista</th>
+          <th scope="col">Paciente</th>
+          <th scope="col">Rut</th>
+          <th scope="col">Previsión</th>
+        </tr>
+      </thead>
+      <tbody id="traumatologia">
+      </tbody>
+    </table>
+  </section>
+  <div id="traumatologiaPU" class="container"></div>
+  <section class="container">
+    <h2 class="mt-5 mb-2">Dental</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Hora</th>
+          <th scope="col">Especialista</th>
+          <th scope="col">Paciente</th>
+          <th scope="col">Rut</th>
+          <th scope="col">Previsión</th>
+        </tr>
+      </thead>
+      <tbody id="dental">
+      </tbody>
+    </table>
+  </section>
+  <div id="dentalPU" class="container"></div>
+  <div id="ejercicio3" class="my-5"></div>
+
+<hr class="Hero-line  m-auto opacity-100">
+  <h2 class="text-center">Total de pacientes atendidos</h2>
+  <table class="container mt-5">
+    <div id="nombresPacientesLista"></div>
+  </table>
+
+<hr class="Hero-line  m-auto opacity-100">
+  <h2 class="text-center">Pacientes Isapre</h2>
+  <div id="ejercicio5" class="container"></div>
+
+<hr class="Hero-line  m-auto opacity-100">
+  <h2 class="text-center">Pacientes en Fonasa</h2>
+  <div id="ejercicio6" class="container"></div>
+
+  
+ <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
